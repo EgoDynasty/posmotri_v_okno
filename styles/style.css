@@ -261,7 +261,7 @@ white-space: nowrap;
   outline: none;
 }
 
-.search-form__label:focus-visible {
+.search-form__label:focus-within {
   outline: 1px solid currentColor;
   outline-offset: 1px;
 }
@@ -286,6 +286,7 @@ white-space: nowrap;
   border: 1px solid white;
   cursor: pointer;
 }
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
   width: 15px;
